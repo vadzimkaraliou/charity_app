@@ -1,0 +1,183 @@
+.contacts {
+    height: 1026px;
+    width: 100%;
+    background-image: url('../../assets/Background-Contact-Form.jpg');
+
+    &__inner {
+        height: 1026px;
+        width: 100%;
+        background: #FFFFFFC9 0% 0% no-repeat padding-box;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    &__form {
+        align-self: flex-end;
+        margin-right: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 200px;
+
+        img {
+            margin-bottom: 40px;
+        }
+    }
+
+    .contact-header {
+        color: $dark-grey;
+        letter-spacing: -0.76px;
+        font-size: 38px;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 40px;
+    }
+
+
+    .contact-details {
+        display: flex;
+        gap: 16px;
+        justify-content: flex-start;
+    }
+
+    .contact-detail {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+
+        label {
+            color: $dark-grey;
+            letter-spacing: 0px;
+            line-height: 65px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        input {
+            border: none;
+            border-bottom: 1px solid #707070;
+            width: 256px;
+            background-color: transparent;
+            margin-bottom: 10px;
+            padding-bottom: 7px;
+
+            &::placeholder {
+                text-align: left;
+                font-size: 18px;
+                letter-spacing: 0px;
+                color: #3C3C3C26;
+                opacity: 1;
+            }
+        }
+    }
+
+    .textArea-lable {
+        margin-top: 20px;
+        align-self: flex-start;
+        color: $dark-grey;
+        letter-spacing: 0px;
+        line-height: 65px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    textarea {
+        border: none;
+        border-bottom: 1px solid #707070;
+        width: 528px;
+        height: 107px;
+        background-color: transparent;
+        margin-bottom: 10px;
+
+        &::placeholder {
+            line-height: 24px;
+            font-family: $font-base;
+            text-align: left;
+            font-size: 18px;
+            letter-spacing: 0px;
+            color: #3C3C3C26;
+            opacity: 1;
+            }
+        }
+
+        .contact-btn {
+            margin-top: 40px;
+            font-family: $font-base;
+            align-self: flex-end;
+            padding: 13px 53px;
+            border: 0.75px solid $dark-grey;
+            background-color: transparent;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 32px;
+            cursor: pointer;
+            transition: .5s all ease-in-out;
+
+            &:hover {
+                color: $light-grey;
+                border: 0.75px solid $light-grey;
+            }
+        }
+
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 22px;
+
+        p {
+            font-family: $font-base;
+            letter-spacing: 0px;
+            color: $dark-grey;
+            line-height: 24px;
+            justify-self: center;
+            text-align: center;
+        }
+        .socials {
+            display: flex;
+            gap: 20px;
+            cursor: pointer;
+        }
+    }
+
+    .contact-name-alert {
+        display: block;
+        color: red;
+        font-size: 14px;
+        align-self: flex-start;
+    }
+
+    .contact-email-alert {
+        display: block;
+        color: red;
+        font-size: 14px;
+        align-self: flex-start;
+    }
+
+    .contact-text-alert {
+        display: block;
+        color: red;
+        font-size: 14px;
+        align-self: flex-start;
+    }
+
+    .success-sent {
+        display: block;
+        color: green;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+
+
+

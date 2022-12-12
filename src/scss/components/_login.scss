@@ -1,0 +1,94 @@
+.loginPage {
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-inner {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-title {
+        color: $dark-grey;
+        letter-spacing: -0.8px;
+        font-size: 40px;
+        line-height: 55px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &-form {
+        padding-top: 50px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        align-items: center;
+        background-color: $white;
+
+        label {
+            width: 70%;
+            padding-top: 10px;
+            padding-left: 68px;
+            padding-right: 68px;
+            color: $dark-grey;
+            letter-spacing: 0px;
+            font-size: 16px;
+            font-family: $font-base;
+            margin-bottom: 20px;
+            align-self: flex-start;
+        }
+
+        input {
+            width: 70%;
+            margin-left: 68px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 0.75px solid $dark-grey;
+            margin-bottom: 6px;
+            align-self: flex-start;
+        }
+    }
+
+    &-btns {
+        display: flex;
+        gap: 300px;
+        margin-top: 50px;
+        padding-top: 50px;
+        background-color: white;
+    }
+
+    &-register {
+        padding: 13px 16px;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        font-family: $font-base;
+        font-weight: 300;
+        letter-spacing: 0px;
+        color: #000000;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    &-active {
+        border: 0.75px solid $dark-grey;
+    }
+}
+
+.logOutImg {
+    margin-bottom: 40px;
+}
+
+.logOutTitle {
+    max-width: 380px;
+}
+
+.login-alert {
+    margin-left: 68px;
+}

@@ -1,0 +1,47 @@
+.columns {
+    width: 100%;
+    height: 385px;
+    background-image: url("../../assets/3\ Columns\ Background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__inner {
+        display: flex;
+        gap: 280px;
+    }
+
+    .column { //.columns .colum
+        text-align: center;
+
+        &-number { //.columns .colum-number
+            color: $brown;
+            font-size: 90px;
+            font-weight: 300;
+            line-height: 122px;
+            text-align: center;
+        }
+
+        &-title {
+            color: $dark-grey;
+            letter-spacing: -0.36px;
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        &-text {
+            margin-top: 28px;
+            font-family: $font-alt;
+            color: $dark-grey;
+            letter-spacing: -0.32px;
+            text-align: center;
+            line-height: 26px;
+            font-size: 14px;
+            font-weight: 100;
+        }
+    }
+}

@@ -4,6 +4,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&display=swap');
 
+@import './components/homeNavHeader';
+@import './components/homeThreeColumns';
+@import './components/homeSimpleSteps';
+@import './components/homeAboutUs';
+@import './components/homeContact';
+@import './components/homeOrganisations';
+@import './components/login';
+@import './components/navigation';
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
 body {
     font-family: $font-base;
 }
+
+@media (max-width: 1600px) {
+    .container {
+      width: 100%;
+      padding: 0 15px;
+    }
+  }

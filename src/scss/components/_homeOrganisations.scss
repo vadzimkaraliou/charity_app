@@ -1,0 +1,119 @@
+.organisations {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+        text-align: center;
+        font-size: 38px;
+        letter-spacing: -0.76px;
+        color: $dark-grey;
+        line-height: 55px;
+        margin-bottom: 42px;
+    }
+
+    &-types {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-bottom: 70px;
+    }
+
+    .organisation-btn {
+        text-align: center;
+        padding: 23px 42px;
+        height: 90px;
+        background-color: transparent;
+        color: $dark-grey;
+        font-size: 24px;
+        line-height: 24px;
+        transition: .3s all ease-in-out;
+        border: 0.75px solid transparent;
+        cursor: pointer;
+
+    }
+
+    .selected-active {
+        text-align: center;
+        padding: 23px 42px;
+        height: 90px;
+        background-color: transparent;
+        color: $dark-grey;
+        font-size: 24px;
+        line-height: 24px;
+        transition: .3s all ease-in-out;
+        border: 0.75px solid transparent;
+        cursor: pointer;
+        border: 0.75px solid $light-grey;
+    }
+
+    &-text {
+        max-width: 650px;
+        text-align: center;
+        color: $dark-grey;
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 80px;
+    }
+
+    .organisation-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+
+    .organisation-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+
+    .organisation-name {
+        color: $dark-grey;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .organisation-description {
+        color: $dark-grey;
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    .organisation-details {
+        color: $dark-grey;
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    .list-line {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        max-width: 65%;
+        height: 0.75px;
+        background-color: $dark-grey;
+        }
+
+        .pagination-btn {
+            background-color: transparent;
+            padding: 13px 15px;
+            color: $dark-grey;
+            font-size: 18px;
+            line-height: 24px;
+            border: none;
+            margin-right: 30px;
+            border: 0.75px solid transparent;
+            cursor: pointer;
+        }
+
+        .pagination-active {
+            border: 0.75px solid $dark-grey;
+        }
+    }

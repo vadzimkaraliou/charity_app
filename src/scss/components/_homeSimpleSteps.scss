@@ -1,0 +1,102 @@
+.steps {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-title div {
+        text-align: center;
+        color: $dark-grey;
+        font-size: 38px;
+        letter-spacing: -0.76px;
+        line-height: 55px;
+        margin-bottom: 40px;
+    }
+
+    &-title img {
+        align-self: center;
+        margin-bottom: 34px;
+    }
+
+    &-descriptions {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        padding: 70px 0;
+        background: $white;
+    }
+
+    .step-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            width: 83px;
+            height: 83px;
+            margin-bottom: 10px;
+        }
+
+        .step-title {
+            text-align: center;
+            color: $dark-grey;
+            letter-spacing: 0px;
+            font-size: 18px;
+            line-height: 24px;
+            max-width: 130px;
+            margin-bottom: 10px;
+        }
+
+        .steps-line {
+            width: 70px;
+            height: 1px;
+            background-color: #707070;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .step-text {
+            color: $dark-grey;
+            letter-spacing: 0;
+            line-height: 20px;
+            font-size: 16px;
+            text-align: center;
+            max-width: 160px;
+        }
+    }
+
+    .steps-btn {
+        margin-top: 35px;
+        margin-bottom: 80px;
+        font-family: $font-base;
+        background-color: transparent;
+        cursor: pointer;
+        color: $dark-grey;
+        width: 310px;
+        height: 120px;
+        font-size: 36px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 45px;
+        border: 0.75px solid $dark-grey;
+        transition: .3s all ease-in-out;
+
+        &:hover {
+            color: $light-grey;
+        }
+    }
+
+
+}
+

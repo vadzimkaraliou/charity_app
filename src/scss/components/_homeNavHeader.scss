@@ -1,0 +1,118 @@
+.header {
+display: flex;
+justify-content: space-between;
+
+    &__img {
+        margin: auto -483px;
+        float: left;
+    }
+
+    // &__img {
+    //     width: 885px;
+    //     height: 963px;
+    //     object-fit: cover;
+    //     object-position: 100% 0;
+    // }
+
+    &__content {
+            justify-self: flex-end;
+            margin-top: 50px;
+            margin-right: 140px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .login {
+            align-self: flex-end;
+
+            &-btn {
+                color: $light-grey;
+                font-size: 14px;
+                background-color: transparent;
+                border: none;
+                padding: 9px 10px;
+                cursor: pointer;
+                transition: .3s all ease-in-out;
+
+                &:hover {
+                    color: $dark-grey;
+                }
+            }
+
+            &-active {
+                margin-left: 20px;
+                border: 0.75px solid $yellow;
+            }
+        }
+
+        .nav-menu {
+            margin-top: 26px;
+            display: flex;
+            align-items: center;
+            gap: 55px;
+
+            &-item a {
+                color: $dark-grey;
+                font-size: 18px;
+                transition: .3s all ease-in-out;
+
+            &:hover {
+                color: $light-grey;
+            }
+            }
+
+            &-item:first-child {
+                padding: 9px 20px;
+                border: 0.75px solid $dark-grey;
+            }
+
+            &-item {
+                cursor: pointer;
+            }
+        }
+
+        .header-text {
+            align-self: flex-start;
+            margin-top: 210px;
+            color: $dark-grey;
+            text-align: center;
+            font-size: 38px;
+            letter-spacing: -0.76px;
+            line-height: 55px;
+            max-width: 680px;
+            margin-bottom: 40px;
+        }
+
+        .header-decoration {
+            align-self: center;
+            margin-bottom: 70px;
+        }
+
+        .header-buttons {
+            align-self: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 44px;
+        }
+
+        .header-btn {
+            font-family: $font-base;
+            background-color: transparent;
+            cursor: pointer;
+            color: $dark-grey;
+            width: 310px;
+            height: 120px;
+            font-size: 36px;
+            font-weight: 300;
+            text-align: center;
+            line-height: 45px;
+            border: 0.75px solid $dark-grey;
+            transition: .3s all ease-in-out;
+
+            &:hover {
+                color: $light-grey;
+            }
+        }
+}

@@ -1,0 +1,130 @@
+{
+    "organisations": [
+      {
+        "id": 0,
+        "type": "foundation",
+        "name": "Fundacja 'Św.Mikołaja'", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 1,
+        "type": "foundation",
+        "name": "Fundacja 'Rak'n'roll'", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 2,
+        "type": "foundation",
+        "name": "Fundacja 'Dbam o zdrowie'", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 3,
+        "type": "foundation",
+        "name": "Fundacja 'Dla dzieci'", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 4,
+        "type": "foundation",
+        "name": "Fundacja 'Bez domu'", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 5,
+        "type": "foundation",
+        "name": "Fundacja 'Siepomaga'", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 6,
+        "type": "foundation",
+        "name": "Fundacja 'Dajemy Dziecom Siłę'", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 7,
+        "type": "foundation",
+        "name": "Fundacja 'Mali Bracia Ubogich'", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 8,
+        "type": "foundation",
+        "name": "Fundacja 'Ocalenie'", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 9,
+        "type": "non-governmental",
+        "name": "Polska Akcja Humanitarna", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 10,
+        "type": "non-governmental",
+        "name": "Komitet Obrony Praw Dziecka", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 11,
+        "type": "non-governmental",
+        "name": "Polska Zielona Sieć", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 12,
+        "type": "non-governmental",
+        "name": "Kolegium Europy Wschodniej", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 13,
+        "type": "non-governmental",
+        "name": "Zielone Mazowsze", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 14,
+        "type": "non-governmental",
+        "name": "Kampania Przeciw Homofobii", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 15,
+        "type": "local",
+        "name": "Szlachetna Paczka", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 16,
+        "type": "local",
+        "name": "Pomoc Ukrainie", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "id": 17,
+        "type": "local",
+        "name": "Warto razem", 
+        "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "details": "ubrania, jedzenie, ciepłe koce"
+      }
+    ]
+  }
